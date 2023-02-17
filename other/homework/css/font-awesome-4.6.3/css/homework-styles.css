@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+header {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  text-transform: uppercase;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0 1.5rem;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #000;
+  list-style: none;
+  padding: 1rem .5rem;
+  margin: 1rem .5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sign-out-link {
+  margin-left: auto;
+  margin-right: 1rem;
+  color: #62debe;
+}
+
+.active {
+  background-color: #333;
+  color: orange;
+  padding: 1rem 1rem;
+}
+
+.passive {}
